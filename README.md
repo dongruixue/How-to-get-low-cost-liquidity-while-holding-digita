@@ -19,6 +19,7 @@ DOT/pUSD
 UNI/pUSD
 MOB/pUSD
 
+
 **The following are the steps for collateralized borrowing with BTC/pUSD as an example.**
 
 1. Download Mixin app ([Mixin](https://mixin.one/messenger)) and complete KYC real name registration. 
@@ -51,10 +52,11 @@ The amount of pUSD returned = the borrowed pUSD + 5% annualized interest rate (d
 
 
 **Caution ⚠️**
-Mortgage rate = (number of collateralized assets x current price) / number of loans x 100%
-Leverage = number of loans / (number of collateralized assets x current price) = 1/Mortgage rate
-It is recommended that the leverage ratio does not exceed 20%, and it is recommended that the assets coming from the loan do not recycle the operation
-Collateral assets fall to the liquidation price will automatically liquidate to auction
+
+1. Mortgage rate = (number of collateralized assets x current price) / number of loans x 100%
+2. Leverage = number of loans / (number of collateralized assets x current price) = 1/Mortgage rate
+3. It is recommended that the leverage ratio does not exceed 20%, and it is recommended that the assets coming from the loan do not recycle the operation
+4. Collateral assets fall to the liquidation price will automatically liquidate to auction.
 
 
 
